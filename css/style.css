@@ -1,0 +1,18 @@
+body{
+    font-family: "Lato", "Noto Sans KR", sans-serif;
+}
+.d_none{
+    display: none;
+}
+a, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===========공지사항 팝업============ */
+
+/* ===========header============ */
+
+/* ===========section============ */
+
+/* ===========footer============ */
