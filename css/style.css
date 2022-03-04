@@ -52,9 +52,9 @@ a, a:link{
     font-weight: 500;
     color: #888888;
 }
-.header_links li:hover{
-    color: red;
+.header_links li a:hover{
     transition: 0.5s;
+    color: red;
 }
 hr{
     border-style: none;
@@ -71,7 +71,7 @@ hr{
     clear: both;
 }
 #gnb{
-    text-align: center;
+    /* text-align: center; */
     overflow: hidden;
     width: 75rem;
     margin: 0 auto;
@@ -84,14 +84,15 @@ hr{
 #gnb li{
     float: left;
     width: calc(75rem / 4);
-    /* text-align: center; */
+    text-align: center;
     /* display: inline-block; */
     margin: 20px auto;
     font-size: 16px;
     font-weight: 700;
     color: #000;
+    /* background: #888888; */
 }
-nav li:hover{
+nav li a:hover{
     color: #d60c00;
     transition: 5ms;
 }
@@ -143,5 +144,20 @@ nav li:hover{
     display: inline-block;
 }
 /* ===========section============ */
-
+.upper_title{
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #d60c00;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.foods{
+    text-align: center;
+}
+.foods li{
+    margin: 0 20px;
+    display: inline-block;
+}
 /* ===========footer============ */
