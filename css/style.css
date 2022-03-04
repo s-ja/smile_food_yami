@@ -12,13 +12,104 @@ a, a:link {
 }
 
 /* ============== 공지사항 팝업 =============== */
-
+#modal {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin: -250px 0 0 -200px;
+    background: gold;
+}
 
 /* ============== 헤더영역 =============== */
+.header-top {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header-top::after { /* clearFix : hack < standard */
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-logo {
+    float: left;
+}
+.header-links {
+    float: right;
+    margin: 15px 0 0 0;
+}
+.header-links li {
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+.header-bottom {
+    border-top: 1px solid #d60c00;
+}
+.header-bottom::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+#gnb {
+    width: 600px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+#gnb li {
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+/* ============== 비주얼 영역 =============== */
+.hero {
+    display: flex;
+    justify-content: center;
+    background: url("../images/hero-img.jpg");
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.slogan-text {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.slogan-text p:nth-child(1){
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+.slogan-text p:nth-child(2){
+    font-size: 3rem;
+}
+.down-btn {
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    color: white;
+    padding: 15px 20px;
+    background: black;
+    border-radius: 30px;
+}
 
 
-/* ============== 본문영역 =============== */
-
+/* ============== 아이콘 링크 영역 =============== */
+.icon-links {
+    background: #d60c00
+}
+.icon-links ul {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.icon-links ul li {
+    display: inline-block;
+}
 
 /* ============== 푸터영역 =============== */
 
