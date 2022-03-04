@@ -10,9 +10,138 @@ a, a:link{
 }
 
 /* ===========공지사항 팝업============ */
-
+.modal{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    margin: -250px 0 0 -200px;
+    background: gold;
+}
 /* ===========header============ */
+.header_top{
+    width: 75rem;
+    /* width: 1200px */
+    /* height: 100px; */
+    padding: 10px;
+    margin: 0 auto;
+    /* background: slateblue; */
+    /* overflow: hidden; 바깥 부분을 다 잘라버리는 단점 */
+    /* display: flow-root; */
+    /* 실험적인 방법중 하나, 최근의 스택 */
+}
+.header_top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* .header_top + nav{
+    clear: both;
+} */
+.header_logo{
+    float: left;
+}
+.header_links{
+    float: right;
+}
+.header_links li{
+    float: left;
+    margin: 15px 10px 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+}
+.header_links li:hover{
+    color: red;
+    transition: 0.5s;
+}
+hr{
+    border-style: none;
+    background-color: #d60c00;
+    height: 1px;
+}
+.header_bottom{
+    border-top:1px solid #d60c00;
+    /* text-align: center; */
+}
+.header_bottom::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#gnb{
+    text-align: center;
+    overflow: hidden;
+    width: 75rem;
+    margin: 0 auto;
+    /* background: gold; */
+}
+/* nav{ 시멘틱에 스타일 넣지 말것
+    border-top: 1px solid #d60c00;
+    text-align: center;
+} */
+#gnb li{
+    float: left;
+    width: calc(75rem / 4);
+    /* text-align: center; */
+    /* display: inline-block; */
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+nav li:hover{
+    color: #d60c00;
+    transition: 5ms;
+}
+.hero{
+    background: url(../images/hero_img.jpg);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 75rem;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* width: 75rem; */
+    position: relative;
+}
+.slogan_text{
+    color: beige;
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.slogan_text p:nth-child(2){
+    font-size: 5rem;
+    color: tomato;
+    font-weight: bolder;
+}
+.down_btn{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    color: bisque;
+    background: #d60c00;
+    border: 5px solid orange;
+    border-radius: 30px;
+    padding: 15px 20px;
 
+}
+/* ===========아이콘 영역============ */
+.icon_links{
+    background-color: #d60c00;
+}
+.icon_links ul{
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.icon_links li{
+    /* float: left; */
+    display: inline-block;
+}
 /* ===========section============ */
 
 /* ===========footer============ */
