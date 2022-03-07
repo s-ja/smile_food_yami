@@ -128,7 +128,12 @@ nav li a:hover{
     border: 5px solid orange;
     border-radius: 30px;
     padding: 15px 20px;
-
+}
+.down_btn:hover{
+    background: orangered;
+    border: 5px solid #d60c00;
+    border-radius: 30px;
+    padding: 15px 20px;
 }
 /* ===========아이콘 영역============ */
 .icon_links{
@@ -142,6 +147,10 @@ nav li a:hover{
 .icon_links li{
     /* float: left; */
     display: inline-block;
+    overflow: hidden;
+}
+.icon_links li:hover img{
+    transform: scale(1.2);
 }
 /* ===========section============ */
 .upper_title{
@@ -159,5 +168,39 @@ nav li a:hover{
 .foods li{
     margin: 0 20px;
     display: inline-block;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+.foods li:hover img{
+    transform: scale(1.2);
+    transition: all .3s;
+}
+/* ===========aside============ */
+.extra_links{
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #d60c00;
+    background: #f1f1f1;
+    margin: 100px 0 0 10px;
+}
+.extra_links li{
+    display: inline-block;
+    font-size: 14px;
+    color: #d50c00;
+    padding: 20px 10px;
 }
 /* ===========footer============ */
+footer{
+    text-align: center;
+}
+.footer_logo{
+    padding: 20px 0;
+}
+address{
+    font-size: 12px;
+    color: #999999;
+    font-weight: 700;
+    height: 100px;
+}
