@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: "Lato", "Noto Sans KR", sans-serif;    
 }
@@ -7,12 +8,26 @@ body {
 }
 
 a, a:link {
+=======
+body{
+    font-family: "Lato", "Noto Sans KR", sans-serif;
+}
+.d_none{
+    display: none;
+}
+a, a:link{
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
     text-decoration: none;
     color: inherit;
 }
 
+<<<<<<< HEAD
 /* ============== 공지사항 팝업 =============== */
 #modal {
+=======
+/* ===========공지사항 팝업============ */
+.modal{
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
     position: absolute;
     width: 400px;
     height: 500px;
@@ -21,6 +36,7 @@ a, a:link {
     margin: -250px 0 0 -200px;
     background: gold;
 }
+<<<<<<< HEAD
 
 /* ============== 헤더영역 =============== */
 .header-top {
@@ -29,10 +45,26 @@ a, a:link {
     padding: 20px 0;
 }
 .header-top::after { /* clearFix : hack < standard */
+=======
+/* ===========header============ */
+.header_top{
+    width: 75rem;
+    /* width: 1200px */
+    /* height: 100px; */
+    padding: 10px;
+    margin: 0 auto;
+    /* background: slateblue; */
+    /* overflow: hidden; 바깥 부분을 다 잘라버리는 단점 */
+    /* display: flow-root; */
+    /* 실험적인 방법중 하나, 최근의 스택 */
+}
+.header_top::after{
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
     content: '';
     display: block;
     clear: both;
 }
+<<<<<<< HEAD
 .header-logo {
     float: left;
 }
@@ -49,10 +81,43 @@ a, a:link {
     border-top: 1px solid #d60c00;
 }
 .header-bottom::after {
+=======
+/* .header_top + nav{
+    clear: both;
+} */
+.header_logo{
+    float: left;
+}
+.header_links{
+    float: right;
+}
+.header_links li{
+    float: left;
+    margin: 15px 10px 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #888888;
+}
+.header_links li a:hover{
+    transition: 0.5s;
+    color: red;
+}
+hr{
+    border-style: none;
+    background-color: #d60c00;
+    height: 1px;
+}
+.header_bottom{
+    border-top:1px solid #d60c00;
+    /* text-align: center; */
+}
+.header_bottom::after{
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
     content: '';
     display: block;
     clear: both;
 }
+<<<<<<< HEAD
 #gnb {
     width: 600px;
     margin: 30px auto;
@@ -103,10 +168,83 @@ a, a:link {
     background: #d60c00
 }
 .icon-links ul {
+=======
+#gnb{
+    /* text-align: center; */
+    overflow: hidden;
+    width: 75rem;
+    margin: 0 auto;
+    /* background: gold; */
+}
+/* nav{ 시멘틱에 스타일 넣지 말것
+    border-top: 1px solid #d60c00;
+    text-align: center;
+} */
+#gnb li{
+    float: left;
+    width: calc(75rem / 4);
+    text-align: center;
+    /* display: inline-block; */
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    /* background: #888888; */
+}
+nav li a:hover{
+    color: #d60c00;
+    transition: 5ms;
+}
+.hero{
+    background: url(../images/hero_img.jpg);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 75rem;
+    margin: 0 auto;
+    /* text-align: center; */
+    /* width: 75rem; */
+    position: relative;
+}
+.slogan_text{
+    color: beige;
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.slogan_text p:nth-child(2){
+    font-size: 5rem;
+    color: tomato;
+    font-weight: bolder;
+}
+.down_btn{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    color: bisque;
+    background: #d60c00;
+    border: 5px solid orange;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+.down_btn:hover{
+    background: orangered;
+    border: 5px solid #d60c00;
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+/* ===========아이콘 영역============ */
+.icon_links{
+    background-color: #d60c00;
+}
+.icon_links ul{
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
     width: 900px;
     margin: 0 auto;
     font-size: 0;
 }
+<<<<<<< HEAD
 .icon-links ul li {
     display: inline-block;
 }
@@ -139,3 +277,65 @@ a, a:link {
 
 
 /* ============== 반응형 스타일 =============== */
+=======
+.icon_links li{
+    /* float: left; */
+    display: inline-block;
+    overflow: hidden;
+}
+.icon_links li:hover img{
+    transform: scale(1.2);
+}
+/* ===========section============ */
+.upper_title{
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: #d60c00;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.foods{
+    text-align: center;
+}
+.foods li{
+    margin: 0 20px;
+    display: inline-block;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+.foods li:hover img{
+    transform: scale(1.2);
+    transition: all .3s;
+}
+/* ===========aside============ */
+.extra_links{
+    height: 100px;
+    text-align: center;
+    border-top: 1px solid #d60c00;
+    background: #f1f1f1;
+    margin: 100px 0 0 10px;
+}
+.extra_links li{
+    display: inline-block;
+    font-size: 14px;
+    color: #d50c00;
+    padding: 20px 10px;
+}
+/* ===========footer============ */
+footer{
+    text-align: center;
+}
+.footer_logo{
+    padding: 20px 0;
+}
+address{
+    font-size: 12px;
+    color: #999999;
+    font-weight: 700;
+    height: 100px;
+}
+>>>>>>> 5774f8e2a8153d201a7234bb9a52776a35b5702b
