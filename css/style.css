@@ -81,7 +81,7 @@ a, a:link {
     top: 30%;
 }
 .slogan-text p:nth-child(1){
-    font-size: 2rem;
+    font-size:2rem;
     margin: 0 0 1rem 0;
 }
 .slogan-text p:nth-child(2){
@@ -110,7 +110,31 @@ a, a:link {
 .icon-links ul li {
     display: inline-block;
 }
-
+/* ============== 본문영역 =============== */
+#main h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+    color: #d60c00;
+    font-size: 1.375rem;
+    font-weight: 900;
+}
+.prd_list{
+    /* display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-flex; */
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.prd_list li{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* float: left; */
+    /* display: inline-block; */
+}
 /* ============== 푸터영역 =============== */
 
 
