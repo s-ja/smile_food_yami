@@ -27,21 +27,27 @@ a, a:link {
     width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
-.header-top::after { /* clearFix : hack < standard */
+/* .header-top::after {
     content: '';
     display: block;
     clear: both;
-}
+} */
 .header-logo {
-    float: left;
+    /* float: left; */
 }
 .header-links {
-    float: right;
-    margin: 15px 0 0 0;
+    /* float: right;
+    margin: 15px 0 0 0; */
+    display: flex;
+    column-gap: 20px;
+    /* gap: 30px 0; */
 }
 .header-links li {
-    float: left;
+    /* float: left; */
     margin: 0 0 0 15px;
 }
 
@@ -124,6 +130,7 @@ a, a:link {
     display: -o-flex;
     display: -webkit-flex; */
     display: flex;
+    /* flex-direction: ; */
     justify-content: center;
     column-gap: 30px;
 }
