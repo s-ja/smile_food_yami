@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>스마일푸드야미</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">        
+    <script src="https://kit.fontawesome.com/04c1ea1f1c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">        
     <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1 class="d-none">스마일푸드 야미 웹(WEB)</h1>
+    <h1 class="d-none">스마일푸드 야미 소개 웹(WEB)</h1>
     <div id="modal" class="d-none">
         <div class="modal-wrap">
             <h2>배송지연 알림</h2>
@@ -23,11 +24,11 @@
         </div>
     </div>
     <header>
-        <h2 class="d-none">야미 헤더 - 브랜드 로고와 전체메뉴, 기타 메뉴 등</h2>
+        <h2 class="d-none">야미 소개 헤더 - 대표 인사말, 브랜드 스토리</h2>
         <div class="header-top">
             <div class="header-logo">
                 <a href="#">
-                    <img src="images/logo.gif" alt="야미">
+                    <img src="../images/logo.gif" alt="야미">
                 </a>
             </div>
             <ul class="header-links">
@@ -41,7 +42,7 @@
             <nav>
                 <h3 class="d-none">전역 메뉴</h3>
                 <ul id="gnb"><!-- Global Navigation Bar : 전역메뉴 -->
-                    <li><a href="about/">야미소개</a></li>
+                    <li><a href="#">야미소개</a></li>
                     <li><a href="#">생산공정</a></li>
                     <li><a href="#">제품소개</a></li>
                     <li><a href="#">고객센터</a></li>
@@ -49,56 +50,22 @@
             </nav>
         </div>
     </header>
-    <div class="hero">
-        <div class="slogan-text">
-            <p>함께하면 행복해지는</p>
-            <p>스마일푸드 야미</p>
+    <!-- 서브페이지 공통 브레드 크럼 -->
+    <div class="breadcrumb">
+        <div class="breadcrumb_wrap">
+            <ul class="share_print">
+                <li><a href="#" onclick="window.print()"><i class="fa-solid fa-print"></i></a></li>
+                 <li><a href="#" onclick="alert('페이지의 주소가 복사되었습니다.\n공유할 곳에 붙여넣어 주세요!')"><i class="fa-solid fa-share-nodes"></i></a></li>
+            </ul>
+            <div>
+                <a href="/"><i class="fa-solid fa-house"></i>처음</a> &gt; 야미소개
+            </div>
         </div>
-        <div class="down-btn">
-            <a href="#">기업 소개서</a>
-        </div>
-    </div>
-    <div class="icon-links">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/visual_icon1.jpg" alt="기업소개">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="images/visual_icon2.jpg" alt="사업안내">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="images/visual_icon3.jpg" alt="제품정보">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="images/visual_icon4.jpg" alt="커뮤니티">
-                </a>
-            </li>
-        </ul>
     </div>
     <section id="main">
-        <h2 class="d-none">본문 - 제품 리스트</h2>
-        <article>
-            <h3 class="d-none">식품 리스트</h3>
-            <h4>product</h4>
-            <ul class="prd_list">
-                <li>
-                    <img src="images/prd_img1.jpg" alt="가공식품">
-                </li>
-                <li>
-                    <img src="images/prd_img2.jpg" alt="신선식품">
-                </li>
-                <li>
-                    <img src="images/prd_img3.jpg" alt="제과제빵">
-                </li>
-            </ul>
-        </article>
+        <h2 class="d-none">본문 - CEO, 브랜드 이념</h2>
+       <article>
+       </article>
     </section>
     <aside>
         <ul class="extra-links">
@@ -110,7 +77,7 @@
     <footer>
         <div class="footer-logo">
             <a href="#">
-                <img src="images/footer_logo.gif" alt="야미">
+                <img src="../images/footer_logo.gif" alt="야미">
             </a>
         </div>
         <address>

@@ -159,6 +159,22 @@ aside{
 .extra-links li:nth-child(2){
     margin: 0 15px;
 }
+/* ============== 야미소개 스타일=============== */
+/* ============== breadcrumb=============== */
+.breadcrumb{
+    background: #d60c00;
+    color: aliceblue;
+    padding: 15px 0;
+}
+.breadcrumb_wrap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.share_print{
+    display: flex;
+}
 /* ============== 푸터영역 =============== */
 footer{
     display: flex;
@@ -169,3 +185,4 @@ address{
     margin: 1rem 0;
 }
 /* ============== 반응형 스타일 =============== */
+
