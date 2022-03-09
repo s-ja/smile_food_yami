@@ -1,35 +1,36 @@
 body {
-    font-family: "Lato", "Noto Sans KR", sans-serif;    
+  font-family: "Lato", "Noto Sans KR", sans-serif;
 }
 
 .d-none {
-    display: none;
+  display: none;
 }
 
-a, a:link {
-    text-decoration: none;
-    color: inherit;
+a,
+a:link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ============== 공지사항 팝업 =============== */
 #modal {
-    position: absolute;
-    width: 400px;
-    height: 500px;
-    left: 50%;
-    top: 50%;
-    margin: -250px 0 0 -200px;
-    background: gold;
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  margin: -250px 0 0 -200px;
+  background: gold;
 }
 
 /* ============== 헤더영역 =============== */
 .header-top {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* .header-top::after {
     content: '';
@@ -37,152 +38,253 @@ a, a:link {
     clear: both;
 } */
 .header-logo {
-    /* float: left; */
+  /* float: left; */
 }
 .header-links {
-    /* float: right;
+  /* float: right;
     margin: 15px 0 0 0; */
-    display: flex;
-    column-gap: 20px;
-    /* gap: 30px 0; */
+  display: flex;
+  column-gap: 20px;
+  /* gap: 30px 0; */
 }
 .header-links li {
-    /* float: left; */
-    margin: 0 0 0 15px;
+  /* float: left; */
+  margin: 0 0 0 15px;
 }
 
 .header-bottom {
-    border-top: 1px solid #d60c00;
+  border-top: 1px solid #d60c00;
 }
 .header-bottom::after {
-    content: '';
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 #gnb {
-    width: 600px;
-    margin: 30px auto;
-    overflow: hidden;
+  width: 600px;
+  margin: 30px auto;
+  overflow: hidden;
 }
 #gnb li {
-    float: left;
-    width: 150px;
-    text-align: center;
+  float: left;
+  width: 150px;
+  text-align: center;
 }
 
 /* ============== 비주얼 영역 =============== */
 .hero {
-    display: flex;
-    justify-content: center;
-    background: url("../images/hero-img.jpg");
-    width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  background: url("../images/hero-img.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
 }
 .slogan-text {
-    color: white;
-    position: absolute;
-    left: 10%;
-    top: 30%;
+  color: white;
+  position: absolute;
+  left: 10%;
+  top: 30%;
 }
-.slogan-text p:nth-child(1){
-    font-size:2rem;
-    margin: 0 0 1rem 0;
+.slogan-text p:nth-child(1) {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
 }
-.slogan-text p:nth-child(2){
-    font-size: 3rem;
+.slogan-text p:nth-child(2) {
+  font-size: 3rem;
 }
 .down-btn {
-    position: absolute;
-    left: 10%;
-    top: 55%;
-    color: white;
-    padding: 15px 20px;
-    background: black;
-    border-radius: 30px;
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  color: white;
+  padding: 15px 20px;
+  background: black;
+  border-radius: 30px;
 }
-
-
 /* ============== 아이콘 링크 영역 =============== */
 .icon-links {
-    background: #d60c00
+  background: #d60c00;
 }
 .icon-links ul {
-    width: 900px;
-    margin: 0 auto;
-    font-size: 0;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 0;
 }
 .icon-links ul li {
-    display: inline-block;
+  display: inline-block;
 }
 /* ============== 본문영역 =============== */
 #main h4 {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 50px 0;
-    color: #d60c00;
-    font-size: 1.375rem;
-    font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px 0;
+  color: #d60c00;
+  font-size: 1.375rem;
+  font-weight: 900;
 }
-.prd_list{
-    /* display: -ms-flex;
+.prd_list {
+  /* display: -ms-flex;
     display: -o-flex;
     display: -webkit-flex; */
-    display: flex;
-    /* flex-direction: ; */
-    justify-content: center;
-    column-gap: 30px;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: center;
+  column-gap: 30px;
 }
-.prd_list li{
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* float: left; */
-    /* display: inline-block; */
+.prd_list li {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* float: left; */
+  /* display: inline-block; */
 }
 /* ============== 어사이드 =============== */
-aside{
-    margin: 50px 0 30px;
+aside {
+  margin: 50px 0 30px;
 }
-.extra-links{
-    padding: 20px 0;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    border-top:1px solid #d60c00;
-    border-bottom:1px solid #d60c00;
+.extra-links {
+  padding: 20px 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  border-top: 1px solid #d60c00;
+  border-bottom: 1px solid #d60c00;
 }
-.extra-links li:nth-child(2){
-    margin: 0 15px;
+.extra-links li:nth-child(2) {
+  margin: 0 15px;
 }
 /* ============== 야미소개 스타일=============== */
 /* ============== breadcrumb=============== */
-.breadcrumb{
-    background: #d60c00;
-    color: aliceblue;
-    padding: 15px 0;
+.breadcrumb {
+  background: #d60c00;
+  color: aliceblue;
+  padding: 15px 0;
 }
-.breadcrumb_wrap{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.breadcrumb_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-.share_print{
-    display: flex;
+.share_print {
+  display: flex;
+}
+/* ============== about 메인섹션 =============== */
+#main h3 {
+  color: #d60c00;
+  font-size: 20px;
+  font-weight: 900;
+}
+.ceo {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 80px 0;
+  position: relative;
+}
+.ceo img {
+  margin: 10px 50px;
+  position: absolute;
+  box-shadow: 15px 15px 5px 5px #d60c00;
+}
+.ceo_info {
+  position: absolute;
+  left: 450px;
+  top: 230px;
+}
+.ceo_info li {
+  padding: 5px 0;
+}
+.ceo_info :nth-child(3) {
+  font-size: 2rem;
+  padding: 20px 0 0 0;
+}
+.ceo_info :nth-child(4) {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #d60c00;
+  text-shadow: 3px 3px 5px #999;
+}
+.ideology {
+  width: 1200px;
+  margin: 0 auto;
+}
+.with {
+  height: 300px;
+  display: flex;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+.with img,
+.fun img,
+.ethical img {
+  position: absolute;
+  top: 10%;
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+}
+.ideology_title {
+  width: 200px;
+  height: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: aliceblue;
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  margin: -25px 0 0 -100px;
+}
+.ideology_sub {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: antiquewhite;
+}
+.fun {
+  height: 300px;
+  display: flex;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+.ethical {
+  height: 300px;
+  display: flex;
+  position: relative;
+  margin: 0 0 50px 0;
+}
+.sub_brand {
+  width: 1200px;
+  margin: 200px auto 100px;
+  display: flex;
+}
+.sub_brand_list {
+  width: 1000px;
+  margin: 50px 0;
+  display: flex;
+  column-gap: 200px;
+}
+.sub_brand_list li {
+  /* background-color: gold; */
+}
+.sub_brand_list img {
+  max-width: 100%;
+  max-height: 100%;
 }
 /* ============== 푸터영역 =============== */
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-address{
-    margin: 1rem 0;
+address {
+  margin: 1rem 0;
 }
 /* ============== 반응형 스타일 =============== */
-
