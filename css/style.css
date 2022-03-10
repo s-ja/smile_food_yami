@@ -214,11 +214,16 @@ aside {
   width: 1200px;
   margin: 0 auto;
 }
+.ideology div{
+  margin: 30px 0;
+}
 .with {
   height: 300px;
   display: flex;
   position: relative;
   margin: 0 0 50px 0;
+  background:  rgba(0, 0, 0, 0.3) url(../images/with1.png);
+  background-blend-mode: darken;
 }
 .with img,
 .fun img,
@@ -253,12 +258,16 @@ aside {
   display: flex;
   position: relative;
   margin: 0 0 50px 0;
+  background:  rgba(0, 0, 0, 0.3) url(../images/fun1.png);
+  background-blend-mode: darken;
 }
 .ethical {
   height: 300px;
   display: flex;
   position: relative;
   margin: 0 0 50px 0;
+  background:  rgba(0, 0, 0, 0.3) url(../images/ethical1.png);
+  background-blend-mode: darken;
 }
 .sub_brand {
   width: 1200px;
