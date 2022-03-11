@@ -173,6 +173,7 @@ aside {
 }
 .share_print {
   display: flex;
+  column-gap: 10px;
 }
 /* ============== about 메인섹션 =============== */
 #main h3 {
