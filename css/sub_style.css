@@ -1,0 +1,28 @@
+.article_wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.process{
+    text-align: center;
+}
+.factory_wrap{
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    /* object-fit: fill; */
+    /* width: 500px; */
+}
+.factory1{
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+.mark{
+    display: flex;
+}
+.mark li{
+    justify-content: center;
+}
+.partners{
+    display: flex;
+}
