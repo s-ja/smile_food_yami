@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>스마일푸드야미</title>
+
     <script
       src="https://kit.fontawesome.com/04c1ea1f1c.js"
       crossorigin="anonymous"
@@ -26,7 +27,7 @@
     />
 
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/sub_style.css">
+    <link rel="stylesheet" href="../css/sub_style.css" />
   </head>
   <body>
     <h1 class="d-none">스마일푸드 야미 소개 웹(WEB)</h1>
@@ -62,10 +63,10 @@
           <h3 class="d-none">전역 메뉴</h3>
           <ul id="gnb">
             <!-- Global Navigation Bar : 전역메뉴 -->
-            <li><a href="#">야미소개</a></li>
-            <li><a href="#">생산공정</a></li>
-            <li><a href="#">제품소개</a></li>
-            <li><a href="#">고객센터</a></li>
+            <li><a href="/about">야미소개</a></li>
+            <li><a href="/process">생산공정</a></li>
+            <li><a href="/products">제품소개</a></li>
+            <li><a href="/cs">고객센터</a></li>
           </ul>
         </nav>
       </div>
@@ -88,14 +89,76 @@
           </li>
         </ul>
         <div>
-          <a href="/"><i class="fa-solid fa-house"></i>처음</a> &gt; 생산공정
+          <a href="/"><i class="fa-solid fa-house"></i>처음</a> &gt; 제품소개
         </div>
       </div>
     </div>
     <section id="main">
-        <article>
-            
-        </article>
+      <article class="article_wrap">
+        <h2 class="my_5" id="page_title">제품소개</h2>
+        <div class="product_top">
+          <button type="menu">
+            낮은 가격순 <i class="fa-solid fa-caret-down"></i>
+          </button>
+          <ul class="view_style d_flex">
+            <a href="#">
+              <li><i class="fa-solid fa-list-check"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa-solid fa-images"></i></li>
+            </a>
+          </ul>
+        </div>
+      </article>
+      <article class="article_wrap">
+        <h3 class="product_div">밀키트 제품</h3>
+        <ul class="product_pics d_flex column_20 justyfy_center">
+          <li>
+            <img src="../images/products_1.jpg" alt="제품1" />
+            <ul class="product_info d_flex">
+              <li>제품 1</li>
+              <li>가격 : 30000원</li>
+            </ul>
+          </li>
+          <li>
+            <img src="../images/products_2.jpg" alt="제품2" />
+            <ul class="product_info d_flex">
+              <li>제품 2</li>
+              <li>가격 : 28000원</li>
+            </ul>
+          </li>
+          <li>
+            <img src="../images/products_3.jpg" alt="제품3" />
+            <ul class="product_info d_flex">
+              <li>제품 3</li>
+              <li>가격 : 19000원</li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="product_pics d_flex column_20 justyfy_center my_5">
+          <li>
+            <img src="../images/products_1.jpg" alt="제품1" />
+            <ul class="product_info d_flex">
+              <li>제품 1</li>
+              <li>가격 : 30000원</li>
+            </ul>
+          </li>
+          <li>
+            <img src="../images/products_2.jpg" alt="제품2" />
+            <ul class="product_info d_flex">
+              <li>제품 2</li>
+              <li>가격 : 28000원</li>
+            </ul>
+          </li>
+          <li>
+            <img src="../images/products_3.jpg" alt="제품3" />
+            <ul class="product_info d_flex">
+              <li>제품 3</li>
+              <li>가격 : 19000원</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
     </section>
     <aside>
       <ul class="extra-links">
