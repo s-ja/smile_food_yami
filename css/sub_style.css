@@ -53,3 +53,29 @@
   color: #d60c00;
   font-weight: 900;
 }
+/* =======고객센터 스타일======== */
+.user_input{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    background: #999;
+    border-radius: 30px;
+}
+.user_input li{
+
+}
+.user_input li input{
+    width: 600px;
+    height: 2rem;
+    margin: 20px 0;
+    background: aliceblue;
+}
+#user_name #user_email #user_chat{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+}
+#user_chat{
+    height: 200px;
+    overflow: scroll;
+}
