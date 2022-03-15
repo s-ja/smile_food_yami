@@ -23,6 +23,9 @@
 .column_20 {
   column-gap: 20px;
 }
+.box_shadow{
+  box-shadow: 5px 5px 5px #999;
+}
 #page_title {
   font-size: 3rem;
   font-weight: bolder;
@@ -30,6 +33,9 @@
 }
 .product_top {
   margin: 20px 0;
+  padding: 10px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
 }
 .view_style {
   column-gap: 20px;
@@ -41,9 +47,10 @@
   width: 400px;
   height: 400px;
   object-fit: cover;
+  box-shadow: 5px 5px 5px #999;
 }
 .product_div {
-  margin: 20px 0;
+  margin: 50px 0 10px 0;
 }
 .product_info {
   justify-content: space-between;
@@ -61,21 +68,15 @@
     background: #999;
     border-radius: 30px;
 }
-.user_input li{
-
-}
 .user_input li input{
     width: 600px;
     height: 2rem;
     margin: 20px 0;
     background: aliceblue;
-}
-#user_name #user_email #user_chat{
-    width: 1000px;
-    height: 200px;
-    margin: 0 auto;
+    border-style: none;
 }
 #user_chat{
     height: 200px;
-    overflow: scroll;
-}
+    width: 600px;
+    overflow-y: scroll;
+  }
